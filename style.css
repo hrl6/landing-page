@@ -14,7 +14,7 @@ body {
     /* border: 2px solid #0400ff; */
 }
 
-/* ---- below header area ---- */
+/* ---- below is header area ---- */
 header {
     display: flex;
     justify-content: flex-start;
@@ -25,7 +25,7 @@ header {
 
 header .title {
     flex: 1;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bolder;
     color: #fff;
     /* border: 2px solid #ff0000; */
@@ -50,7 +50,7 @@ a {
     color: #fff;
     /* border: 2px solid #e5ff00; */
 }
-/* ---- above header area ---- */
+/* ---- above is header area ---- */
 
 .container-one {
     display: flex;
@@ -59,7 +59,6 @@ a {
     flex-wrap: wrap;
     gap: 30px;
     padding: 100px 0px;
-    /* border: 2px solid #ff0000; */
 }
 
 .content-container {
@@ -67,14 +66,16 @@ a {
     min-width: 550px;
     min-height: 300px;
     color: #fff;
-    /* border: 2px solid #0400ff; */
 }
 
 .content-container .title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    /* border: 2px solid #e5ff00; */
+}
+
+.content-container .text {
+    text-align: justify;
 }
 
 button {
@@ -87,7 +88,6 @@ button {
     padding: 10px 24px;
     margin-top: 8px;
     white-space: nowrap;
-    /* border: 2px solid #ff0000; */
 }
 
 .image-container {
@@ -97,13 +97,11 @@ button {
     max-height: 300px;
     object-fit: cover;
     overflow: hidden;
-    /* border: 2px solid  #ff00ea; */
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
-    /* border: 2px solid #e5ff00; */
 }
 
 @media (max-width: 1800px) {
@@ -153,7 +151,6 @@ img {
 
 /* -- section two -- */
 .section-two {
-    /* background-color: #1f2937; */
     margin: 0;
     padding: 8px 16px;
     display: flex;
@@ -227,7 +224,7 @@ img {
 }
 
 .quote {
-    font-size: 34px;
+    font-size: 24px;
     opacity: 0.7;
     font-style: italic;
     text-align: justify;
@@ -236,7 +233,7 @@ img {
 
 .quoter {
     align-self: flex-end;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
 }
 /* --------------------- */
@@ -278,4 +275,13 @@ img {
 
 .ivt-container button{
     border: 2px solid #fff;
+}
+/* ------------------ */
+
+footer {
+    background-color: #1f2937;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 30px;
 }
