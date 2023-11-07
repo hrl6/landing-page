@@ -4,3 +4,5 @@ The project is only for practicing/improving my flexbox skill.
 
 Note:
 - the web is not optimized to every screen size.
+
+View: https://hrulm.github.io/landing-page/
